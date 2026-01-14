@@ -513,7 +513,7 @@ footer{
     margin: 5px 1%;
     border-radius: 10px;
     background-color: #1b1b1bf7;
-    padding: 40px 25px;
+    padding: 25px;
     display: grid;
     grid-template-rows: 1fr 4fr 1fr;
     grid-template-columns: 1fr 1fr 2fr;
@@ -564,7 +564,7 @@ footer #nav-links{
 footer #bottom{
     grid-area: bottom;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
